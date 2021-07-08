@@ -68,3 +68,11 @@ number.b = 2
 console.log(number.a)
 console.log(number.b)
 console.log(number.sum)
+
+const objects = []
+objects.push({ name: '멍멍이' })
+objects.push({ name: '야옹이' })
+
+objects.map((object) => {
+    console.log(object.name)
+})
